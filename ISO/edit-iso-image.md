@@ -7,7 +7,7 @@
 <li> sudo nano /etc/X11/xinit/xinitrc
 
 	/home/pi/{APPNAME} &
-	matchbox-window-manager </li>
+	matchbox-window-manager 
 <li> sudo dd if=./sdcard.img of=/dev/mmcblk0 bs=1M status=progress </li>
 <li> sync </li>
 
