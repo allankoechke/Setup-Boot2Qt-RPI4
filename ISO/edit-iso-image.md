@@ -1,4 +1,6 @@
 <ol>
+	<li> /sbin/fdisk -lu ./lineage-16.0-20200713-rpi4.img </li>
+	<li> 512 * startSector </li>
 <li> sudo mount -o loop,offset=33554944 ./sdcard.img /mnt/rasp-pi-rootfs </li>
 <li> sudo mkdir /mnt/rasp-pi-rootfs/home </li>
 <li> sudo mkdir /mnt/rasp-pi-rootfs/home/pi </li>
